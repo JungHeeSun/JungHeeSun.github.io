@@ -1,0 +1,159 @@
+body {
+    
+    background-image: url(http://www.sulki-min.com/wp/sm-images/bg-noise.gif)
+
+}
+
+h1 {
+
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 10em;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+h2 {
+
+    font-family: Merriweather; 
+    font-size: 1.8em;
+    text-align: right;
+
+}
+
+h3 {
+
+    font-family: Merriweather; 
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.container {
+ 
+    width: 100vh;
+    height: 100vh;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left: -50vh;
+    margin-top: -50vh;
+
+}
+
+p {
+
+    font-family: Merriweather; 
+    font-size: 0.7em;
+    line-height: 1em;
+    text-align: left;
+
+}
+
+p.maintext {
+
+    font-family: Merriweather; 
+    font-size: 1.3em;
+    text-indent: 30px;
+    line-height: 1.3em;
+    text-align: justify;
+
+}
+
+p.emphasis {
+
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+@keyframes fadein {
+
+    from { opacity: 0; }
+    to { opacity: 1; }
+
+}
+
+.schedules {
+    width: 100vh;
+    height: 20vh;
+}
+
+.schedule {
+
+    visibility: hidden;
+    font-family: Merriweather; 
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+    
+}
+
+.schedule2 {
+
+    visibility: hidden;
+    font-family: Merriweather; 
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+
+.schedule3 {
+
+    visibility: hidden;
+    font-family: Merriweather; 
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+
+.schedule4 {
+
+    visibility: hidden;
+    font-family: Merriweather; 
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+
+.schedule5 {
+
+    visibility: hidden;
+    font-family: Merriweather; 
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+
+.schedule6 {
+
+    visibility: hidden;
+    font-family: Merriweather; 
+    font-size: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+
+.visible {
+
+    visibility: visible;
+    animation: fadein;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+
+}
+
