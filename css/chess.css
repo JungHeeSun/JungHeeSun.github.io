@@ -208,11 +208,11 @@ h1{
 }
 
 .blackPanel.queen{
-    background-image: url("chesspiece/queen-w.png");
+    background-image: url("https://jungheesun.github.io/chesspiece/queen-w.png");
 }
 
 .whitePanel.king{
-    background-image: url("chesspiece/king.png");
+    background-image: url("https://jungheesun.github.io/chesspiece/king.png");
 }
 
 
